@@ -1,0 +1,64 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.div1 {
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 25%;
+    padding: 30px;
+    
+}
+
+img {
+    width: 99%;
+    height: 110%;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+h2.div1 {
+    font-style: 'Young', Serif;
+}
+
+.div2 {
+    background-color: hsl(330, 100%, 98%);
+    padding: 7px;
+    font-family: "Young", sans-serif;
+    
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 66%);
+    grid-template-rows: repeat(4, 30%);
+    font-family: "Outfit", sans-serif;
+}
+
+.brown {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+
+}
+
+#fap {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+
+#rest {
+    font-family: "Young", sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+.child {
+    color: hsl(30, 10%, 34%)
+}
+
+.child2 {
+    color: hsl(14, 45%, 36%);
+}
+
+
