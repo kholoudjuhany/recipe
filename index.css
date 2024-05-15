@@ -61,4 +61,17 @@ h2.div1 {
     color: hsl(14, 45%, 36%);
 }
 
+@media screen and (max-width: 375px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    body {
+        background-color: white;
+    }
+  }
+
 
